@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-4 border mt-5 p-5 bg-white">
+
+      <h1>New restaurant</h1>
+
+      <%= render "form", restaurant: @restaurant %>
+
+      <br>
+
+      <div>
+        <%= link_to "Back to restaurants", restaurants_path %>
+      </div>
+
+    </div>
+  </div>
+</div>
